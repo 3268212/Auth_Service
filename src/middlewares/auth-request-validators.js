@@ -7,7 +7,7 @@ const validateUserAuth = (req, res, next) => {
             err:`Email or password missing in the signup request`
         })
         
-        next()
+        next();
     }
 }
 
